@@ -1,0 +1,26 @@
+# ---- Local companion service (not published) ----
+# server.py + service/ are the private audiobook pipeline: source lookups,
+# debrid/torrent resolution, Yoto OAuth and the ffmpeg prep chain. They run
+# on this machine only and are deliberately absent from the public repo.
+server.py
+service/
+tests/
+probe_sources_live.py
+
+# ---- Internal notes and build tooling ----
+AGENTS.md
+HANDOFF - *.md
+PLAN - *.md
+README.local.md
+*.bat
+
+# ---- Machine state / user data ----
+__pycache__/
+*.pyc
+jobs/
+*.mym
+.yoto-maker/
+
+# ---- OS ----
+Thumbs.db
+desktop.ini
