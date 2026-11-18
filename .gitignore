@@ -1,7 +1,7 @@
 # ---- Local companion service (not published) ----
-# server.py + service/ are the private audiobook pipeline: source lookups,
-# debrid/torrent resolution, Yoto OAuth and the ffmpeg prep chain. They run
-# on this machine only and are deliberately absent from the public repo.
+# server.py + service/ are the local-only companion pipeline (audio prep and
+# Yoto upload). It runs on this machine and is deliberately absent from this
+# repository.
 server.py
 service/
 tests/
